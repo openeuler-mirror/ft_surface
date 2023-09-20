@@ -1,0 +1,10 @@
+prefix=/usr/
+exec_prefix=/usr/
+libdir=${exec_prefix}/lib64
+includedir=${prefix}/include
+
+Name: ft_surface_wrapper
+Version: 1.0.0
+Description: ft_surface_wrapper for build mesa
+Libs: -L${libdir} -lft_surface_wrapper
+Cflags: -I${includedir}
