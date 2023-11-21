@@ -36,6 +36,7 @@ typedef struct {
     uint32_t reserveFds;  /**< the number of reserved fd value */
     uint32_t reserveInts; /**< the number of reserved integer value */
     int32_t reserve[0];   /**< the data */
+    void *mapData;
 } BufferHandle;
 
 #ifdef __cplusplus
